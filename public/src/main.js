@@ -28,6 +28,9 @@ define(function (require) {
                 });
             });
 
+            var capData = require('./data');
+            console.warn(capData);
+
         }
     };
 });
